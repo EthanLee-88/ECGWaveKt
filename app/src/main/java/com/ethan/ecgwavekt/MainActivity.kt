@@ -26,25 +26,25 @@ class MainActivity : AppCompatActivity() {
     public fun onClick(view: View){
         if (mECGRealTimeChart.getData().isEmpty()){
              Thread(Runnable {
-                addDataDelay(data);
+                addDataDelay(data)
             }).start();
         }else {
-            mECGRealTimeChart.clearData();
+            mECGRealTimeChart.clearData()
         }
     }
 
      private fun addDataDelay(data: Array<Int>) {
-        mECGRealTimeChart.setNoDataComing(false);
+        mECGRealTimeChart.setNoDataComing(false)
         for (i in 0 until 10) {
                 for (item in data) {
                     team.add(item);
                     if (team.size >= 6){
-                        mECGRealTimeChart.addData(team);
-                        Thread.sleep(68);
+                        mECGRealTimeChart.addData(team)
+                        Thread.sleep(68)
                         team.clear();
                     }
                 }
         }
-        mECGRealTimeChart.setNoDataComing(true);
+        mECGRealTimeChart.setNoDataComing(true)
     }
 }
