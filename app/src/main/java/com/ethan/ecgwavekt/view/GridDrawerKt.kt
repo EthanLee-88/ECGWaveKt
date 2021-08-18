@@ -3,6 +3,8 @@ package com.ethan.ecgwave.view.kti
 import android.graphics.*
 import android.util.Log
 import android.view.MotionEvent
+import com.ethan.ecgwavekt.view.BaseDrawerKt
+import com.ethan.ecgwavekt.view.ECGRealTimeChartKt
 
 class GridDrawerKt: BaseDrawerKt {
     private val TAG = "BackgroundDrawer"

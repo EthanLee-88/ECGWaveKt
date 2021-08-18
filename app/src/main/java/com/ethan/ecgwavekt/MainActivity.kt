@@ -3,7 +3,7 @@ package com.ethan.ecgwavekt
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import com.ethan.ecgwave.view.kti.ECGRealTimeChartKt
+import com.ethan.ecgwavekt.view.ECGRealTimeChartKt
 
 class MainActivity : AppCompatActivity() {
 

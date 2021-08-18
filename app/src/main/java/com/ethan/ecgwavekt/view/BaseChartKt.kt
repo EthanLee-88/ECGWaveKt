@@ -1,4 +1,4 @@
-package com.ethan.ecgwave.view.kti
+package com.ethan.ecgwavekt.view
 
 import android.content.Context
 import android.util.AttributeSet

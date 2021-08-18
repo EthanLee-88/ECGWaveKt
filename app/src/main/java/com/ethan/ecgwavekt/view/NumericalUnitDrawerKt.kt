@@ -4,8 +4,8 @@ import android.graphics.Canvas
 import android.graphics.Color
 import android.graphics.Paint
 import android.view.MotionEvent
-import com.ethan.ecgwave.view.kti.BaseDrawerKt
-import com.ethan.ecgwave.view.kti.ECGRealTimeChartKt
+import com.ethan.ecgwavekt.view.BaseDrawerKt
+import com.ethan.ecgwavekt.view.ECGRealTimeChartKt
 
 class NumericalUnitDrawerKt: BaseDrawerKt {
     private var lineColor = Color.RED

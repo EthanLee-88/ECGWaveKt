@@ -1,10 +1,11 @@
-package com.ethan.ecgwave.view.kti
+package com.ethan.ecgwavekt.view
 
 import android.content.Context
 import android.graphics.Canvas
 import android.graphics.Color
 import android.util.AttributeSet
 import android.view.MotionEvent
+import com.ethan.ecgwave.view.kti.GridDrawerKt
 import com.ethan.scanview.view.kti.NumericalUnitDrawerKt
 import com.ethan.scanview.view.kti.PathDrawerKt
 
@@ -150,5 +151,4 @@ class ECGRealTimeChartKt : BaseChartKt {
     override fun computeScroll() {
         this.mPathDrawerKt.computeScroll()
     }
-
 }

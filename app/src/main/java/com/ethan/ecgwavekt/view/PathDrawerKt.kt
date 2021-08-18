@@ -5,8 +5,8 @@ import android.util.Log
 import android.view.MotionEvent
 import android.view.VelocityTracker
 import android.widget.Scroller
-import com.ethan.ecgwave.view.kti.BaseDrawerKt
-import com.ethan.ecgwave.view.kti.ECGRealTimeChartKt
+import com.ethan.ecgwavekt.view.BaseDrawerKt
+import com.ethan.ecgwavekt.view.ECGRealTimeChartKt
 import java.util.concurrent.CopyOnWriteArrayList
 
 class PathDrawerKt : BaseDrawerKt {

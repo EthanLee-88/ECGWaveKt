@@ -1,4 +1,4 @@
-package com.ethan.ecgwave.view.kti
+package com.ethan.ecgwavekt.view
 
 import android.graphics.Canvas
 import android.view.MotionEvent

@@ -17,7 +17,7 @@
         app:layout_constraintRight_toRightOf="parent"
         tools:ignore="OnClick" />
 
-    <com.ethan.ecgwave.view.kti.ECGRealTimeChartKt
+    <com.ethan.ecgwavekt.view.ECGRealTimeChartKt
         android:id="@+id/ecg_chart"
         android:layout_marginTop="28dp"
         android:layout_width="match_parent"
