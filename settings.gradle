@@ -1,2 +1,3 @@
 rootProject.name = "ECGWaveKt"
 include ':app'
+include ':photoeditor'

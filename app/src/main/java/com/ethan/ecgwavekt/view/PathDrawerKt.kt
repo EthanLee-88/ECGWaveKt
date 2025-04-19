@@ -364,7 +364,7 @@ class PathDrawerKt : BaseDrawerKt {
     }
 
     override fun computeScroll() {
-        if (mScroller.computeScrollOffset()) {
+        if (mScroller.computeScrollOffset()) { //还在滑动
             mBaseChart.scrollTo(mScroller.currX, 0)
         }
     }
