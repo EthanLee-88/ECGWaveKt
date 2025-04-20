@@ -72,7 +72,8 @@ class PhotoEditAc : AppCompatActivity() {
                 mPhotoEditor.setShape(mShapeBuilder.withShapeType(ShapeType.Arrow()))
             }
             imgSave.setOnClickListener {
-                saveImage()
+//                saveImage()
+                slideView.verifySuccess = false
             }
         }
     }
